@@ -12,31 +12,19 @@ services:
 
     plan: free
 
-    envVars:
 
-      - key: BOT_TOKEN
 
-        # value: BOT_TOKEN
 
-        sync: false
 
-      - key: AUTHORIZED_CHATS
 
-        # value: DATABASE_URL
 
-        sync: false
 
-      - key: OWNER_ID
 
-        # value: OWNER_ID
 
-        sync: false
 
-      - key: TOKEN_PICKLE_URL
 
-        # value: TELEGRAM_API
 
-        sync: false
+
 
 
 
