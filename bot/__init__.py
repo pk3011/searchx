@@ -140,23 +140,6 @@ except KeyError:
     AUTHOR_URL = 'https://t.me/heliosmirror'
 
 
-    updater = Updater(token=BOT_TOKEN, use_context=True)
-    dispatcher = updater.dispatcher
-    
-
-
-    
-
-
-    
-
-    
-
-
-
-
-
-
-
-
-
+updater = tg.Updater(token=BOT_TOKEN,use_context=True)
+bot = updater.bot
+dispatcher = updater.dispatcher
