@@ -139,7 +139,7 @@ try:
 except KeyError:
     AUTHOR_URL = 'https://t.me/heliosmirror'
 
-def main():
+
     updater = Updater(token=BOT_TOKEN, use_context=True)
     dispatcher = updater.dispatcher
     
@@ -150,8 +150,7 @@ def main():
     dispatcher.add_handler(help_handler)
     updater.start_polling()
     
-if __name__ == '__main__':
-    main()
+
     
 
 
