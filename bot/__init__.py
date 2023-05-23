@@ -143,12 +143,11 @@ except KeyError:
     updater = Updater(token=BOT_TOKEN, use_context=True)
     dispatcher = updater.dispatcher
     
-    start_handler = CommandHandler("start", start)
-    help_handler = CommandHandler("help", help)
+
+
     
-    dispatcher.add_handler(start_handler)
-    dispatcher.add_handler(help_handler)
-    updater.start_polling()
+
+
     
 
     
