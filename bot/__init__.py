@@ -143,3 +143,16 @@ except KeyError:
 updater = tg.Updater(token=BOT_TOKEN,use_context=True)
 bot = updater.bot
 dispatcher = updater.dispatcher
+start_handler = CommandHandler("start", start)
+
+help_handler = CommandHandler("help", help)
+
+dispatcher.add_handler(start_handler)
+
+dispatcher.add_handler(help_handler)
+
+updater.start_polling()
+
+if __name__ == '__main__':
+
+main()
