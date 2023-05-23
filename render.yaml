@@ -43,4 +43,4 @@ services:
 
       - key: PORT
 
-        value: 80
+        value: 8080
